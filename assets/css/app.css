@@ -1,0 +1,31 @@
+.marco{
+  border-top: 1px solid gray;
+  border-bottom:1px solid gray ;
+  max-width: 100%;
+}
+#footer-cont{
+  width: 100%;
+}
+.space{
+  padding: 1% 0.2%;
+}
+.menu-vertical>ul{
+margin-left: 0 !important;
+}
+.menu-vertical>li{
+  list-style: none;
+  margin-left: 0;
+}
+.col-1{
+  border-right:1px solid gray  ;
+  border-bottom:1px solid gray  ;
+}
+.col-2{
+  border-bottom:1px solid gray  ;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  margin-left: 0;
+}
+/*font-family: "neutra-book",Helvetica;*/
