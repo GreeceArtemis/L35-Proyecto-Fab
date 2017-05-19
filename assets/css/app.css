@@ -1,3 +1,8 @@
+*{
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 .red{
   background-color: red;
 }
@@ -5,7 +10,7 @@
   text-transform: uppercase;
 }
 .header-color{
-  background-color: black;
+  background-color: #171717;
   color: white;
   font-size: 0.8rem;
   padding: 5px 0;
@@ -18,3 +23,34 @@
   width: 99px;
   height: 39px;
 }
+.fi-mail{
+  font-size: 1rem;
+  display: inline-block;
+}
+.header-below{
+  padding-top: 10px;
+}
+.divider{
+  display: inline-block;
+  border: 1px solid #9b9b9b;
+  height: 18px;
+  margin: 20px 10px 0 10px;
+  margin-bottom: -4px;
+}
+.menu li a{
+  font-weight: bold;
+  color: black;
+  padding-right: 30px;
+}
+.header-right a{
+  color: #9b9b9b;
+  font-size: 0.9rem;
+}
+.input-group input{
+  display: inline-block;
+}
+/*.border{
+  border: 1px solid darkgray;
+  height: 10px;
+  position: relative;
+}*/
