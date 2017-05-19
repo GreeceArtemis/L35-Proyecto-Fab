@@ -1,0 +1,20 @@
+.red{
+  background-color: red;
+}
+.up{
+  text-transform: uppercase;
+}
+.header-color{
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px 0;
+}
+.flag{
+  width: 18px;
+  height: 14px;
+}
+.fab-logo img{
+  width: 99px;
+  height: 39px;
+}
