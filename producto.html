@@ -7,10 +7,25 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/foundation.min.css">
   <link rel="stylesheet" href="assets/fonts/icons/foundation-icons.css">
+  <link rel="stylesheet" href="assets/fonts/fonts/font-awesome.css">
   <link rel="stylesheet" href="assets/css/app.css">
   <title>Fab</title>
 </head>
 <body>
+  <div class="navProduct row columns">
+      <nav aria-label="You are here:" role="navigation">
+        <ul class="breadcrumbs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Features</a></li>
+            <li>
+            <span class="show-for-sr">Current: </span> Cloning
+            </li>
+        </ul>
+      </nav>
+  </div>
 
   <section class="productoImg">
     <div>
@@ -41,33 +56,48 @@
 
           <div class=" row product-image-gallery">
 
+            <div class="imgProduct large-5 large-push-1 small-12 columns text-center">
+              <img class="pdp-product-image  " id="main-product-image" src="assets/img/520570-740x740-1461526216-primary.png" alt="">
+            </div>
 
-            <div class="large-1  large-offset-1 small-12 columns">
-              <div class=" row menu product-thumbs  ">
+            <div class="large-1  large-offset-1 large-pull-5 small-10 small-offset-1  tex-center columns">
+              <div class=" row menu product-thumbs text-center ">
 
-
-                  <a class="sim-thumb  large-10 small-1  columns " data-image="assets/img/520569-300x300-1461683665-primary.png"><img src="assets/img/520569-300x300-1461683665-primary.png" alt=""></a>
-                  <a class="sim-thumb  large-10 small-1 columns" data-image="assets/img/520570-236x236-1461526216-primary.png"><img src="assets/img/520570-236x236-1461526216-primary.png" alt=""></a>
-                  <a class="sim-thumb  large-10 small-1 columns" data-image="assets/img/520571-300x300-1461525528-primary.png"><img src="assets/img/520570-70x70-1461526699-s1.png" alt=""></a>
-                  <a class="sim-thumb  large-10 small-1 columns" data-image="assets/img/520570-740x740-1461526216-primary.png"><img src="assets/img/520570-70x70-1461684743-s4.png" alt=""></a>
+                  <a class="sim-thumb  large-10 small-3 columns" data-image="assets/img/520570-740x740-1461526216-primary.png"><img src="assets/img/520570-70x70-1461684743-s4.png" alt=""></a>
+                  <a class="sim-thumb  large-10 small-3 columns " data-image="assets/img/520569-300x300-1461683665-primary.png"><img src="assets/img/520569-300x300-1461683665-primary.png" alt=""></a>
+                  <a class="sim-thumb  large-10 small-3 columns" data-image="assets/img/520570-236x236-1461526216-primary.png"><img src="assets/img/520570-236x236-1461526216-primary.png" alt=""></a>
+                  <a class="sim-thumb  large-10 small-3 columns end" data-image="assets/img/520571-300x300-1461525528-primary.png"><img src="assets/img/520570-70x70-1461526699-s1.png" alt=""></a>
 
               </div>
             </div>
-            <div class="imgProduct large-5 small-12  columns text-center">
-              <img class="pdp-product-image  " id="main-product-image" src="assets/img/520570-740x740-1461526216-primary.png" alt="">
-            </div>
-            <div class="large-5 small-12 columns">
 
-              <p>Wooden Teardrop Shelf 2 Shelves</p>
-              <p>by The Wavertree Co.</p>
-              <p>$82</p>
+            <div class="large-4 small-12 columns end">
+
+              <h1 class="titleProduct">Wooden Teardrop Shelf 2 Shelves</h1>
+              <p class="creatorProduct">by <a >The Wavertree Co.</p></a>
+              <span class="priceProduct">$82</span>
               <div class="lista">
 
               </div>
               <p>FREE SHIPPING above $75*</p>
-              <button type="button" class="button btn-default-red">
-                <i class="fi-shopping-bag" aria-hidden="true"></i> Add to Bag
-              </button>
+              <div class="buttons row ">
+                <button type="button" class="alert button btn-default-red large-4 small-10 columns">
+                  <i class="fi-shopping-bag" aria-hidden="true"></i> Add to Bag
+                </button>
+                <button type="button" class="alert button btn-default-red large-1 small-1 columns">
+                  <i class="fi-heart" aria-hidden="true"></i>127
+                </button>
+              </div>
+
+              <div class=" row socialNetworks">
+                <ul class="large-10 large-offset-1 small-12 text-center">
+                  <span class="fa fa-facebook large-3 small-3 column"></span>
+                  <span class="fi-social-twitter large-3 small-3 column"></span>
+                  <span class="fa fa-tumblr large-3 small-3 column"></span>
+                  <span class="fi-social-path large-3 small-3 column"></span>
+
+                </ul>
+              </div>
 
             </div>
 
@@ -77,12 +107,53 @@
 
 
     </div>
-    <div class="productMoreDetails">
+    <hr>
+    <div class="large-10 large-centered productMoreDetails">
+      <div class="row">
+        <div class="pDescription large-6 column">
+          <h1>Description</h1>
+          <p>Your walls will be crying tears of joy when you hang this Wooden Teardrop Shelf.
+            Brought to you by designers Olivia and Lee Goodwin of The Wavertree Co., it's the
+            perfect place to display all your weird trinkets, plants, pet rocks, and all the feels
+            that make your place distinctly yours.</p>
+        </div>
+        <div class="pMoreDetails large-4 large-offset-2 column">
+          <h1>More Details</h1>
+          <div class="large-6 column">
+            <p><span class="">Designer:</span>Olivia Goodwin, Lee Goodwin.</p>
+            <p><span class="">Brand:</span>The Wavertree Co. </p>
+            <p><span class="">Material: </span>Cedar, Brass </p>
+            <p><span class="">Color:  </span>Brown</p>
+            <p><span class="">Diameter: </span>2.50”</p>
+          </div>
+          <div class="large-6 column">
+            <p><span class="">Care:</span>Dust with a dry cloth.</p>
+            <p><span class="">Finish:</span> Clear Stain</p>
+            <p><span class="">Origin: </span>United States</p>
+            <p><span class="">Measurements: </span>L 11” W 18” H 1.50”</p>
+
+
+          </div>
+        </div>
+      </div>
 
     </div>
-    <div class="productShippingInfo">
+    <hr>
+    <div class="productShippingInfo large-10 large-centered">
+      <div class="row">
+        <div class="large-12 column">
+          <h1>Shipping Info <span></span></h1>
+          <p><span class="">Estimated Arrival:</span>Between Jun. 19 and Jul. 3 to PE</p>
+          <p><span class="">Return Policy:</span>We will gladly accept returns for any reason within 30 days of receipt of delivery.</p>
+          <p><span class="">Availability:</span>Ships to United States</p>
+
+        </div>
+
+      </div>
 
     </div>
+
+    <hr>
     <div class="productYouMightAlsoLike">
 
     </div>
