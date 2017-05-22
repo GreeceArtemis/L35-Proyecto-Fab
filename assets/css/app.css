@@ -21,13 +21,6 @@ header{
   width: 18px;
   height: 14px;
 }
-/*.fi-mail{
-  display: inline-block;
-  margin: 0 5px 0 15px;
-  font-size: 1.4rem;
-  position: relative;
-  top: 4px;
-}*/
 .header-below{
   padding-top: 10px;
 }
@@ -35,7 +28,7 @@ header{
   display: inline-block;
   border: 1px solid #9b9b9b;
   height: 18px;
-  margin: 20px 5px 0 10px;
+  margin: 20px 5px 0 0px;
   margin-bottom: -4px;
   opacity: 0.5;
 }
@@ -79,6 +72,10 @@ header{
 .menu-hover a:hover{
   background-color: #ffffff;
   color: #9b9b9b;
+}
+.logo {
+  height: 39px;
+  width: 99px;
 }
 @media (max-width: 600px) {
   .logo{
@@ -127,16 +124,7 @@ header{
 button.menu-icon{
   color: #9b9b9b;
 }
-.menu-header {
-  width: 100%;
-  background-color: #fefefe;
-  padding: 1rem 1rem 0;
-}
 
-.menu-header .logo {
-  height: 39px;
-  width: 99px;
-}
 
 .menu-header ul {
   background-color: #fefefe;
@@ -144,10 +132,6 @@ button.menu-icon{
 
 .menu-header li {
   display: inline-block;
-}
-
-.menu-header .nav-links {
-  margin-left: 15px;
 }
 
 .menu-header a {
@@ -178,9 +162,9 @@ button.menu-icon{
 }
 
 
-.menu-header .menu > .main-nav-link > a {
+/*.menu-header .menu > .main-nav-link > a {
   padding: 1.5em 0.85em 1.9em 0.85em;
-}
+}*/
 
 .menu-header-top {
   width: 100%;
@@ -296,4 +280,13 @@ button.menu-icon{
 }
 .accordion-title:hover{
   color: black;
+}
+/*SECTION*/
+section.galeria{
+  position: relative;
+  top: 100px;
+}
+.galeria1{
+  display: flex;
+  margin-bottom: 15px;
 }
