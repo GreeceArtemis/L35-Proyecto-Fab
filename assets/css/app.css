@@ -2,19 +2,45 @@
   border-top: 1px solid gray;
   border-bottom:1px solid gray ;
   max-width: 100%;
+  padding: 0 3%;
 }
 #footer-cont{
   width: 100%;
+  border-top: 1px solid gray;;
+  border-bottom: 1px solid gray;
+}
+.inicio{
+  border-bottom:  1px solid gray;
+  padding: 0.5em;
+}
+.borde{
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
 }
 .space{
   padding: 1% 0.2%;
+  font-size: .99em;
 }
-.menu-vertical>ul{
-margin-left: 0 !important;
+.no-padding{
+  margin-left:  0;
+  padding-left:  0;
+}
+.menu-vertical{
+  margin: 0;
+  padding: 0;
+}
+.icon-size{
+  font-size: 2em;
+  margin: 0.22em 0.1em;
 }
 .menu-vertical>li{
   list-style: none;
   margin-left: 0;
+}
+.bold-600{
+  font-weight: bold;
+  padding-top: 0.1em;
+  padding-bottom: 0.6em;
 }
 .col-1{
   border-right:1px solid gray  ;
@@ -27,5 +53,14 @@ a{
   text-decoration: none;
   color: #333;
   margin-left: 0;
+}
+.cuestion{
+  background:black;
+  color: white !important;
+}
+@media screen and (max-width: 419px){
+  .inicio, .marco , .col-1 , .col-2{
+    border: none;
+  }
 }
 /*font-family: "neutra-book",Helvetica;*/
