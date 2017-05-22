@@ -284,9 +284,8 @@ button.menu-icon{
 /*SECTION*/
 section.galeria{
   position: relative;
-  top: 100px;
+  top: 120px;
 }
 .galeria1{
-  display: flex;
   margin-bottom: 15px;
 }
