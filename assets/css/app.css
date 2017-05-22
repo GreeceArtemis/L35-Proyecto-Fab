@@ -21,10 +21,6 @@ header{
   width: 18px;
   height: 14px;
 }
-.fab-logo img{
-  width: 99px;
-  height: 39px;
-}
 /*.fi-mail{
   display: inline-block;
   margin: 0 5px 0 15px;
@@ -100,7 +96,6 @@ header{
   border: 0;
 }
 
-/*PROBANDO EJEMPLO*/
 .menu-slide li a{
   color: #171717;
   line-height: 20px;
@@ -213,11 +208,6 @@ button.menu-icon{
   transition: color 0.5s ease;
 }
 
-/*.menu-header-top-links a:hover {
-  color: white;
-  transition: color 0.5s ease;
-}*/
-
 .menu-header-off-canvas .menu {
   padding: 1rem 0;
   background-color: #F2F2F2;
@@ -236,15 +226,6 @@ button.menu-icon{
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.menu-header-mobile-left,
-.menu-header-mobile-right,
-.menu-header-mobile-center {
-  -webkit-flex: 1 0 0;
-      -ms-flex: 1 0 0px;
-          flex: 1 0 0;
-}
-
 .menu-header-mobile-left {
   display: -webkit-flex;
   display: -ms-flexbox;
