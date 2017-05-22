@@ -12,62 +12,127 @@
 </head>
 <body>
   <header>
-    <div class="expanded row header-color">
+    <!-- <div class="expanded row header-below">
       <div class="row">
-        <div class="small-9 large-10 columns">
-          <span>FREE SHIPING on orders above $75</span>
-        </div>
-        <div class="small-2 large-1 columns">
-          <span>Ship To:</span>
-          <img src="assets/img/us.png" alt="" class="flag">
-        </div>
-        <div class="small-1 large-1 columns">
-          <i class="fi-mail"></i>
-          <span class="hide-for-small-only">Email Us</span>
-        </div>
-      </div>
-    </div>
-    <div class="expanded row header-below">
-      <div class="row">
-        <div class="large-2 columns">
-          <a href="#" class="fab-logo">
-            <img src="assets/img/fab_logo_3_0.png" alt="">
-          </a>
-        </div>
-        <div class="large-5 columns">
-          <div class="input-group">
+        <div class="small-1 medium-5 columns">
+          <div class="input-group input-header">
+            <i class="fi-magnifying-glass fi-search show-for-small"></i>
             <input type="text" class="input-group-field hide-for-small-only">
             <span class="input-group-label hide-for-small-only">l</span>
           </div>
         </div>
-        <div class="large-3 large-offset-2 columns header-right">
-          <a href="#">Fab Insider</a>
-          <a href="#" class="divider"></a>
-          <a href="#">Registry</a>
-          <a href="#" class="divider"></a>
-          <a href="#" class="fi-lock"></a>
-          <a href="#" class="divider"></a>
-          <a href="#">Login</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="menu-centered">
-            <ul class="menu">
-              <li><a href="#" class="up">new arrivals</a></li>
-              <li class="border"></li>
-              <li><a href="#" class="up">art</a></li>
-              <li><a href="#" class="up">home</a></li>
-              <li><a href="#" class="up">women</a></li>
-              <li><a href="#" class="up">men</a></li>
-              <li><a href="#" class="up">tech</a></li>
-              <li><a href="#" class="up">fun</a></li>
-              <li><a href="#" class="up">featured designers</a></li>
-              <li><a href="#" class="up">boutiques</a></li>
-              <li><a href="#" class="up">blog</a></li>
+      </div> -->
+      <div class="expanded row">
+        <div class="off-canvas menu-header-off-canvas position-left" id="menu-header" data-off-canvas>
+        <ul class="vertical menu menu-slide">
+          <li class="main-nav-link"><a href="#">Sign In</a></li>
+          <li class="main-nav-link"><a href="#">New Arrivals</a></li>
+          <li class="main-nav-link"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Art</a>
+            <span class="float-right">+</span>
+            <ul>
+
             </ul>
+          </li>
+          <li class="main-nav-link"><a href="#">Home</a></li>
+          <li class="main-nav-link"><a href="#">Women</a></li>
+          <li class="main-nav-link"><a href="#">Men</a></li>
+          <li class="main-nav-link"><a href="#">Tech</a></li>
+          <li class="main-nav-link"><a href="#">Fun</a></li>
+          <li class="main-nav-link"><a href="#">Featured Designers</a></li>
+          <li class="main-nav-link"><a href="#">Boutiques</a></li>
+          <li class="main-nav-link"><a href="#">Fab Insider</a></li>
+          <li class="main-nav-link"><a href="#">Registry</a></li>
+          <li class="main-nav-link"><a href="#">Contact Us</a></li>
+          <li class="main-nav-link"><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div class="menu-header-top">
+          <div class="row">
+            <div class="small-8 medium-8 columns menu-header-top-message size">
+              FREE SHIPING on orders above $75
+            </div>
+            <div class="small-4 medium-2 columns header-top-right">
+              <span class="size">Ship To:</span>
+              <img src="assets/img/us.png" alt="" class="flag">
+              <i class="fi-mail"></i>
+              <span class="hide-for-small-only size">Email Us</span>
+            </div>
           </div>
         </div>
+        <div class="menu-header top-bar show-for-large">
+          <div class="row">
+            <div class="top-bar-left">
+              <ul class="medium-horizontal menu">
+                <li><a href="#"><img class="logo" src="assets/img/fab_logo_3_0.png"></a></li>
+                <li class="input-header">
+                  <i class="fi-magnifying-glass fi-search show-for-small"></i>
+                  <input type="text" class="input hide-for-small-only">
+                    <!-- <span class="input-group-label hide-for-small-only">l</span> -->
+                </li>
+              </ul>
+            </div>
+            <div class="top-bar-right">
+              <ul class="menu header-right">
+                <li><a href="#">Fab Insider</a></li>
+                <span class="divider"></span>
+                <li><a href="#">Registry</a></li>
+                <span class="divider"></span>
+                <li><a href="#" class="fi-lock"></a></li>
+                <span class="divider"></span>
+                <li><a href="#">Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="menu-header top-bar show-for-large">
+          <div class="row">
+            <div class="top-bar-left">
+              <ul class="dropdown menu nav-items" data-dropdown-menu>
+                <li class="main-nav-link up"><a href="categories.html">new arrivals</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up has-submenu"><a href="">art</a>
+                  <ul class="submenu menu vertical" data-submenu>
+                    <div class="column menu vertical">
+                      <li><a href="#0">One</a></li>
+                      <li><a href="#0">Two</a></li>
+                      <li><a href="#0">Three</a></li>
+                    </div>
+                  </ul>
+                </li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">home</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">women</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">men</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">tech</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">fun</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">featured designers</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">boutiques</a></li>
+                <span class="divider"></span>
+                <li class="main-nav-link up"><a href="categories.html">blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="menu-header-mobile hide-for-large">
+          <div class="menu-header-mobile-left">
+            <button class="fi-list" type="button" data-toggle="menu-header"></button>
+          </div>
+          <div class="menu-header-mobile-center">
+            <a href="#"><img class="logo" src="assets/img/fab_logo_3_0.png"></a>
+          </div>
+          <div class="menu-header-mobile-right">
+            <i class="fi fi-magnifying-glass"></i>
+            <i class="fi fi-lock"></i>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
 
