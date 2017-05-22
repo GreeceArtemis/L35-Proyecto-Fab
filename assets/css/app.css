@@ -108,7 +108,7 @@ header{
   padding-bottom: 10px;
 }
 .off-canvas{
-  background-color: #ffffff;
+  background-color: #F2F2F2;
 }
 
 .fi-list{
@@ -220,7 +220,7 @@ button.menu-icon{
 
 .menu-header-off-canvas .menu {
   padding: 1rem 0;
-  background-color: #ffffff;
+  background-color: #F2F2F2;
 }
 
 .menu-header-mobile {
@@ -284,4 +284,35 @@ button.menu-icon{
   color: #9b9b9b;
   font-size: 1.5rem;
   margin: 0 4px;
+}
+.position-left{
+  width: 350px;
+  transform: translateX(-350px);
+}
+.position-left.is-open~.off-canvas-content{
+  transform: translateX(350px);
+}
+.accordion-title{
+  font-size: 0.8rem;
+  color: black;
+}
+.accordion-content ul li{
+  list-style-type: none;
+}
+.accordion-content ul li a{
+  font-size: 0.8rem;
+  color: black;
+}
+.no-more:before{
+  content: "";
+}
+.accordion{
+  background-color: #F2F2F2;
+}
+.accordion-content{
+  background-color: #F2F2F2;
+  outline: none;
+}
+.accordion-title:hover{
+  color: black;
 }
