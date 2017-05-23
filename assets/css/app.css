@@ -152,6 +152,17 @@ color: gray !important;
 }
 @media  (max-width: 40em) {
   .owl-stage{
-    padding-left: 30rem;
+    padding-left: 27rem;
+  }
+  .owl-nav{
+    display: none;
+  }
+  .owl-stage-outer{
+    height: 260px;
+  }
+}
+@media  (min-width: 40em) {
+  .owl-stage{
+    padding-left: 0;
   }
 }
