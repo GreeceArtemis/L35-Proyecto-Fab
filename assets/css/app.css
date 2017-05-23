@@ -1,3 +1,4 @@
+
 *{
   font-family: 'Lato', sans-serif;
   margin: 0 auto;
@@ -15,7 +16,6 @@ header{
   background-color: #171717;
   color: white;
   font-size: 0.8rem;
-  /*padding: 5px 0;*/
 }
 .flag{
   width: 18px;
@@ -125,26 +125,9 @@ button.menu-icon{
   color: #9b9b9b;
 }
 
-
-.menu-header ul {
-  background-color: #fefefe;
-}
-
 .menu-header li {
   display: inline-block;
 }
-
-.menu-header a {
-  color: #8a8a8a;
-  transition: color 0.5s ease;
-  display: block;
-}
-
-.menu-header a:hover {
-  color: #0b0b0b;
-  transition: color 0.5s ease;
-}
-
 .nav-items li a{
   color: black;
   font-weight: bold;
@@ -155,17 +138,10 @@ button.menu-icon{
     width: 150px;
   }
 }
-
 .menu-header.top-bar {
   padding-top: 0;
   padding-bottom: 0;
 }
-
-
-/*.menu-header .menu > .main-nav-link > a {
-  padding: 1.5em 0.85em 1.9em 0.85em;
-}*/
-
 .menu-header-top {
   width: 100%;
   background-color: #171717;
@@ -288,4 +264,106 @@ section.galeria{
 }
 .galeria1{
   margin-bottom: 15px;
+}
+/*FOOTER*/
+.marco{
+  border-top: 1px solid gray;
+  border-bottom:1px solid gray ;
+  max-width: 100%;
+  padding: 0 3%;
+}
+#footer-cont{
+  width: 100%;
+  border-top: 1px solid gray;;
+  border-bottom: 1px solid gray;
+}
+.inicio{
+  border-bottom:  1px solid gray;
+  padding: 0.5em;
+}
+.borde{
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+}
+.space{
+  padding: 1% 0.2%;
+  font-size: .99em;
+}
+.no-padding{
+  margin-left:  0;
+  padding-left:  0;
+}
+.menu-vertical{
+  margin: 0;
+  padding: 0;
+}
+.icon-size{
+  font-size: 2em;
+  margin: 0.22em 0.1em;
+}
+.menu-vertical>li{
+  list-style: none;
+  margin-left: 0;
+}
+.rojo{
+  background-color: red;
+  color: #fff;
+}
+.bold-600{
+  font-weight: bold;
+  padding-top: 0.1em;
+  padding-bottom: 0.6em;
+}
+.col-1{
+  border-left: 1px solid gray  ;
+}
+.borde-down{
+    border-bottom:1px solid gray  ;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  margin-left: 0;
+}
+.cuestion{
+  background:black;
+  color: white !important;
+}
+.has-tip{
+  font-size: 0.8em;
+}
+.titulo-car{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.off-canvas.is-open{
+  background-color: white;
+  width: 25%;
+  overflow: hidden;
+}
+.checkout{
+  position: absolute;
+  bottom: 10px;
+  background-color: black;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+}
+.white{
+  color: white;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 419px){
+  .inicio, .marco , .col-1 , .col-2{
+    border: none;
+  }
+  .off-canvas.is-open{
+    width: 70%;
+  }
 }
