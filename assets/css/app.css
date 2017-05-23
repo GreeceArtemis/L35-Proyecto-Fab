@@ -1,18 +1,36 @@
-*{
+* {
   font-family: 'Lato', sans-serif;
   margin: 0 auto;
   box-sizing: border-box;
+}
+hr{
+  border-bottom: 0.5px solid #EEEEEE;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .product-image-gallery {
   background-color: #fefefe;
   padding: 1.5rem;
 }
+.breadcrumbs li:not(:last-child):after{
+  content: "";
 
+}
+.breadcrumbs a{
+  padding-right: 1em;
+}
+
+.breadcrumbs .fa-angle-right:before{
+  content: "\f105";
+  font-size: 1rem;
+  position: absolute;
+  top: 0.1em;
+}
 .pdp-product-image {
   margin-bottom: 20px;
 }
 .imgProduct img{
-  width: 80%;
+
 }
 .product-thumbs a {
   /*
@@ -39,18 +57,21 @@ transition: 300ms;
 width: auto;
 }
 .titleProduct{
-font-size: 2em;
+font-size: 1.5em;
+}
+.title{
+font-size: 1.2em;
 }
 .creatorProduct{
   color: gray;
-font-size: 1.5em;
+font-size: 1.2em;
 }
 .creatorProduct a{
 color: gray !important;
   text-decoration: underline;
 }
 .priceProduct{
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 .socialNetworks{
   font-size: 1.8em;
@@ -60,4 +81,77 @@ color: gray !important;
 }
 .lista{
   width: 4rem;
+}
+.productDescription .column,.productDescription .columns{
+  padding-left: 0;
+  padding-right: 0;
+}
+.btnRate{
+  margin-top: 10px;
+  padding: 9px 23px;
+  background-color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.productDescription .button{
+  width: 100%;
+}
+.productDescription .buttons {
+  padding-right: 5rem;
+    padding-left: 1rem;
+}
+.socialNetworks ul{
+  margin-left: 0;
+}
+
+.owl-nome .owl-nav [class*=owl-] {
+    color: #333333;
+    font-size: 54px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.owl-nome .owl-nav [class*=owl-]:hover {
+    color: #9B9B9B;
+    background: none;
+}
+
+.owl-nome .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 26%;
+    background:black;
+    height:0px;
+}
+
+.productYouMightAlsoLike .owl-next,.recentlyViewed  .owl-next{
+  position:absolute;
+  right:-0.31em;
+}
+
+.productYouMightAlsoLike .owl-prev,.recentlyViewed .owl-prev{
+  position:absolute;
+  left:-0.31em;
+}
+
+
+.productYouMightAlsoLike .large-12,.recentlyViewed .large-12{
+    padding-left: 1%;
+    padding-right:1%;
+}
+.item{
+  padding-bottom: 3rem;
+}
+.item .priceProduct{
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+@media  (max-width: 40em) {
+  .owl-stage{
+    padding-left: 30rem;
+  }
 }
