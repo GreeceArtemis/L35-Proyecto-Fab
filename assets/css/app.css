@@ -67,10 +67,39 @@ a{
 .titulo-car{
   background-color: black;
   color: white;
+  height: 50px;
 }
+.off-canvas.is-open{
+  background-color: white;
+  width: 25%;
+  overflow: hidden;
+}
+.checkout{
+  position: absolute;
+  bottom: 10px;
+  background-color: black;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+}
+.white{
+  color: white;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 419px){
   .inicio, .marco , .col-1 , .col-2{
     border: none;
   }
+  .off-canvas.is-open{
+    width: 70%;
+  }
 }
+
+
+
 /*font-family: "neutra-book",Helvetica;*/
