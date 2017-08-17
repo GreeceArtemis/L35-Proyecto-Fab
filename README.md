@@ -1,5 +1,4 @@
 # L35- Proyecto-Fab
-# L35- Proyecto-Fab
 Se realizo la distribución de tareas según el diseño y dificultad   de la página.
 
  1.-Header...                        (Leslie)
@@ -32,3 +31,5 @@ COLABORADORAS.:
 * [Leslie Avendaño](https://github.com/lesashley)
 * [Greacia Rayme](https://github.com/GreeceArtemis)
 * [Maia Rojas](https://github.com/MaiaRT46RRRRRRR)
+
+Link del proyecto [clic](https://greeceartemis.github.io/L35-Proyecto-Fab/) 
